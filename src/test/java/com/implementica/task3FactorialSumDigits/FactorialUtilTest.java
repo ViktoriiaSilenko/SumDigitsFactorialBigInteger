@@ -14,15 +14,11 @@ public class FactorialUtilTest {
 	
 	@Test
 	public void testFactorialForOne() {
-		assertEquals(BigInteger.ONE, FactorialUtil.factorial(0));
 		assertEquals(BigInteger.ONE, FactorialUtil.factorial(1));
-		assertEquals(BigInteger.valueOf(24), FactorialUtil.factorial(4));
 	}
 	
 	@Test
 	public void testFactorialForFour() {
-		assertEquals(BigInteger.ONE, FactorialUtil.factorial(0));
-		assertEquals(BigInteger.ONE, FactorialUtil.factorial(1));
 		assertEquals(BigInteger.valueOf(24), FactorialUtil.factorial(4));
 	}
 	

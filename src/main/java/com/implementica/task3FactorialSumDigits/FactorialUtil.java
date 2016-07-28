@@ -13,7 +13,7 @@ public class FactorialUtil {
 		} 
 		
         BigInteger factorial = BigInteger.ONE;
-        for (int i = 1; i <= n; ++i) {
+        for (int i = 2; i <= n; ++i) {
         	factorial = factorial.multiply(BigInteger.valueOf(i));
         }
         return factorial;
