@@ -15,6 +15,11 @@ public class NumberUtilTest {
 	public void testFactorialForNegativeInteger() {
 		NumberUtil.calculateSumOfDigits(BigInteger.valueOf(-3));
 	}
+	
+	@Test
+	public void testcalculateSumOfDigitsForNull() {
+		assertEquals(null, NumberUtil.calculateSumOfDigits(null));
+	}
     
 }
 
